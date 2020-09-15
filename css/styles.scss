@@ -1,12 +1,15 @@
-$color-primary: #3046c5;
+$color-primary:#3046c5;
 $color-secondary: #5637dd;
 $color-pale: #cec8ff;
 $color-mid: #901cad;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
-$body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+$body-font: "Open Sans",
+sans-serif;
+$header-font: "Lobster",
+cursive;
+
 body {
   font-family: $body-font;
 }
@@ -33,14 +36,13 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(
-    to right,
-    $color-secondary,
-    $color-primary,
-    $color-dark
-  );
+  background-image: linear-gradient(to right,
+      $color-secondary,
+      $color-primary,
+      $color-dark);
   color: white;
 }
+
 body {
   font-family: $body-font;
 }
@@ -69,14 +71,13 @@ header {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(
-    to right,
-    $color-secondary,
-    $color-primary,
-    $color-dark
-  );
+  background-image: linear-gradient(to right,
+      $color-secondary,
+      $color-primary,
+      $color-dark);
   color: white;
 }
+
 .navbar {
   background-color: $color-mid;
 }
