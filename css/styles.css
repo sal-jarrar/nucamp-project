@@ -49,8 +49,32 @@ header h2 {
 .navbar {
   background-color: #901cad; }
 
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
 .carousel {
   border: solid #5637dd; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901cad;
+  color: white; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }

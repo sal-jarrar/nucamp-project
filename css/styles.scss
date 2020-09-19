@@ -3,6 +3,7 @@ $color-secondary: #5637dd;
 $color-pale: #cec8ff;
 $color-mid: #901cad;
 $color-dark: #60106b;
+$color-teal:#17A2B8;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 $body-font: "Open Sans",
@@ -82,10 +83,43 @@ header {
   background-color: $color-mid;
 }
 
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px;
+}
+
 .carousel {
   border: solid $color-secondary;
 }
 
 .carousel-caption {
   background-color: $color-black-transparent;
+}
+
+#reserveModal {
+  .modal-header {
+    background-color: $color-teal;
+    color: white;
+  }
+}
+
+#loginModal {
+  .modal-header {
+    background-color: $color-mid;
+    color: white;
+  }
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
